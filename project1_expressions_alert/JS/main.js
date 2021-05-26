@@ -10,4 +10,4 @@ document.write(     //printing out the variables, concatenated
     "Number of male children: " + male +
     "Number of female children: " + female
 );
-document-write(5+7);    //printing the result of an expression
+document.write(5+7);    //printing the result of an expression

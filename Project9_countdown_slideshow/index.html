@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <Title>Project9 | Countdown Slideshow</Title>
+        <meta charset="utf-8">
+        <script src="js/main.js"></script>
+        <link rel="stylesheet" href="Stylesheet/main.css">
+    </head>
+
+    <body>
+
+         <!-- BEGIN COUNTDOWN PROGRAM-->
+         <P>How many seconds would you like to set your alarm for?</P>
+
+         <input id="seconds" value="" />
+         <button onclick="countdown()">Click here to begin timer!</button>
+         <p id="timer"></p>
+         <!-- END COUNTDOWN PROGRAM-->
+
+
+         <!--BEGIN SLIDESHOW SECTION-->
+
+         <!--Slideshow container-->
+         <div class="slideshow-container">
+
+            <!--Images with number and caption text-->
+
+                <!--1ST-->
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 3</div>
+                    <img src="images/img1.jpg" style="width:100%">
+                    <div class="text">Alpaca 1 - Ralph</div>
+                </div>
+
+                <!--2ND-->
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 3</div>
+                    <img src="images/img2.jpg" style="width:100%">
+                    <div class="text">Alpaca 2 - Loafboi</div>
+                </div>
+
+                    <!--3RD-->
+                    <div class="mySlides fade">
+                    <div class="numbertext">1 / 3</div>
+                    <img src="images/img3.jpg" style="width:100%">
+                    <div class="text">Alpaca 3 - Mr.StealYoGirlPaca</div>
+                </div>
+
+            <!--"NEXT" AND "PREVIOUS" BUTTONS-->
+                  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+         </div>
+         <br>
+
+         <!-- The dots/circles-->
+         <div style="text-align: center;">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+    </body>
+</html>
